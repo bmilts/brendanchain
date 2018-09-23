@@ -1,0 +1,45 @@
+
+
+BLOCKHASHES AND SHA-256
+
+- What is hash algorithm?
+- A cryptographic hash function is a hash function that takes an input or message and returns a fixed size alphanumeric string
+- The string is called the hash value, message digest, digital fingerprint, digest or checksum
+
+- The hash is generated from the timestamp, lasthash and stored data
+- SHA256 algorithm produces a unique 256 bit hash value for unique data inputs
+- One way hash
+- Useful for block validation
+
+Summary:
+
+1. As mineblock is called
+2. Hash value is created based on timestamp
+
+TEST THE BLOCK
+
+- Set up environment testing environment using jest module
+
+Summary:
+
+1. Test shows data appears properly
+2. Test shows hash appears properly
+
+BLOCKCHAIN CLASS
+
+- Block chain is an array of blocks
+- new block created based on last block to create links
+
+MULTIPLE CHAIN VALIDATION (HASH VALIDATION)
+
+- In order for miners to accept chains there needs to be validation
+- Forks resolved in the chain
+1. Miner A and B create a fork in the system
+2. Half miners have chains from miner A and B
+3. Which chains do miners agree to?
+4. Miners accept longest chain. 
+
+HASH VALIDATION 
+
+- Support multiple miners
+
